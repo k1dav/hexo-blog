@@ -1,7 +1,68 @@
 ---
 title: Hello World
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+先放點與 [Hexo](https://hexo.io/) 與 [Redefine Theme](https://redefine-docs.ohevan.com/) 有關的資料
+
+
+## Redefine Block Demo
+### Notes
+{% notel default fa-info 訊息 %}
+長訊息
+長訊息
+{% endnotel %}
+
+{% note  %}
+短訊息
+{% endnote %}
+
+### Buttons
+{% btn center::Google::https://google.com.tw::fa-brands fa-google %}
+
+```
+center, regular, large, center large, center regular
+```
+
+### Folding
+{% folding blue::藏起來了 %}
+
+被發現了
+ 
+{% endfolding %}
+
+```
+yellow, blue, green, red, orange, pink, cyan, white, black, gray
+```
+
+### Tabs
+{% tabs First unique name %}
+<!-- tab First Tab-->
+**This is Tab 1.**
+<!-- endtab -->
+ 
+<!-- tab Second Tab-->
+**This is Tab 2.**
+ 
+This is Tab 2.
+<!-- endtab -->
+ 
+<!-- tab Third Tab-->
+**This is Tab 3.**
+ 
+This is Tab 3.
+ 
+This is Tab 3.
+<!-- endtab -->
+{% endtabs %}
+
+### [Mermaid](https://mermaid.js.org/)
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 
 ## Quick Start
 

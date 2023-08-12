@@ -4,12 +4,13 @@
 
 # Site
 title: S.Feng 實驗筆記
-subtitle: 'Adventures in Programming, Bug Fixing, Finance, and IoT'
-description: '歡迎來到 S.Feng 實驗筆記，一個引人入勝的部落格，我在這裡分享我的程式設計心得、Bug 解決經驗，以及有關理財和物聯網的深入見解。加入我們，一起探索程式設計的領域，尋找解決 Bug 的方法，優化個人理財策略，並深入瞭解物聯網技術的驚奇可能性。準備好在 S.Feng 實驗筆記中擴展你的知識，從多元化的主題中尋找靈感吧！'
+subtitle: "Adventures in Programming, Bug Fixing, Finance, and IoT"
+description: "歡迎來到 S.Feng 實驗筆記，一個引人入勝的部落格，我在這裡分享我的程式設計心得、Bug 解決經驗，以及有關理財和物聯網的深入見解。加入我們，一起探索程式設計的領域，尋找解決 Bug 的方法，優化個人理財策略，並深入瞭解物聯網技術的驚奇可能性。準備好在 S.Feng 實驗筆記中擴展你的知識，從多元化的主題中尋找靈感吧！"
 keywords: Python,後端,前端,Vue,理財,股票,ETF,IoT,智慧家庭,智能家居
 author: S.Feng
-language: zh
-timezone: 'Asia/Taipei'
+language: zh-TW
+timezone: "Asia/Taipei"
+all_minifier: true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -47,21 +48,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -81,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -102,4 +103,4 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: ""
