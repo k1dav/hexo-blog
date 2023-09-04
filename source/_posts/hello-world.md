@@ -1,5 +1,6 @@
 ---
 title: Hello World
+excerpt: "先放點與 Hexo 與 Redefine Theme 有關的資料..."
 ---
 先放點與 [Hexo](https://hexo.io/) 與 [Redefine Theme](https://redefine-docs.ohevan.com/) 有關的資料
 
